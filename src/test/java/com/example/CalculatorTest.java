@@ -1,14 +1,14 @@
 package com.example;
 
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 public class CalculatorTest {
     private final Calculator calculator = new Calculator();
 
     @Test
     public void testSum() {
-        assertEquals(10, calculator.sum(2, 3), "2 + 3 should be 5");
+        assertEquals(5, calculator.sum(2, 3), "2 + 3 should be 5");
     }
 
     @Test
